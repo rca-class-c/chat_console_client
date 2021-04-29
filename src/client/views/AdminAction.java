@@ -1,12 +1,11 @@
 package client.views;
 
 import client.interfaces.*;
+import client.models.User;
 import client.simplifiers.RequestSimplifiers;
 import client.views.components.Component;
 import client.views.components.TableView;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import server.models.User;
-import server.services.ReportsServices;
 import utils.CommonUtil;
 
 import java.io.BufferedReader;

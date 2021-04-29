@@ -2,12 +2,11 @@ package client.views;
 
 import client.ChatClient;
 import client.interfaces.*;
+import client.models.AuthInput;
+import client.models.User;
 import client.views.components.Component;
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import server.models.AuthInput;
-import server.models.User;
-import server.services.MessagesService;
 import utils.CommonUtil;
 import utils.ConsoleColor;
 
@@ -61,9 +60,14 @@ public class WelcomeView {
 //            if(notifications.isSuccess()){
 //                CommonUtil.displayTray(new NotificationDecoder().notificationsList(notifications.getData()));
 //            }
-            MessagesService msg = new MessagesService();
-            Set<ResultSet> notifications = msg.viewUserNotifications(client.getUserid());
-            CommonUtil.displayTray(notifications);
+
+
+
+
+            //channele and souvede
+//            MessagesService msg = new MessagesService();
+//            Set<ResultSet> notifications = msg.viewUserNotifications(client.getUserid());
+//            CommonUtil.displayTray(notifications);
             new UserView(client.getUserid(), writer, reader).viewOptions();
 
         }

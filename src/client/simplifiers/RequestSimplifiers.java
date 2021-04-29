@@ -1,10 +1,10 @@
 package client.simplifiers;
 
 import client.interfaces.*;
+import client.models.Group;
+import client.models.Messages;
+import client.models.User;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import server.models.Group;
-import server.models.Messages;
-import server.models.User;
 import utils.ChatBetweenTwo;
 
 import java.io.BufferedReader;

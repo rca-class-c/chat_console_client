@@ -1,6 +1,8 @@
 package client.interfaces;
 
-import server.models.User;
+
+
+import client.models.User;
 
 import java.util.List;
 

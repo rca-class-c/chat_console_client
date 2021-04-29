@@ -1,6 +1,6 @@
 package utils;
 
-import server.models.User;
+import client.models.User;
 
 import java.util.List;
 import java.util.ListIterator;

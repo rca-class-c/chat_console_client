@@ -1,8 +1,8 @@
 package client.views;
 
+import client.models.User;
 import client.simplifiers.RequestSimplifiers;
 import client.views.components.Component;
-import server.models.User;
 import utils.CommonUtil;
 import utils.ConsoleColor;
 

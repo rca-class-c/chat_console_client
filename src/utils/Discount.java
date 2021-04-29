@@ -1,7 +1,9 @@
 package utils;
-import  server.models.Payment;
+
+import client.models.Payment;
+
 public class Discount {
-    public  Payment TotalAmount(float discount,float totalAmount){
+    public Payment TotalAmount(float discount, float totalAmount){
        float AmountAfterDiscount=totalAmount-(totalAmount*(discount/100));
        Payment payment=new Payment();
        payment.setTotalAmount(AmountAfterDiscount);

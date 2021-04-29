@@ -11,7 +11,7 @@ import java.util.List;
 import java.util.Scanner;
 import java.util.Set;
 
-import server.services.MessagesService;
+
 import utils.ConsoleColor;
 import utils.GroupMessage;
 
@@ -52,9 +52,9 @@ public class View
                         Scanner scanner = new Scanner(System.in);
                         System.out.println("Enter user id");
                         int id = scanner.nextInt();
-                        MessagesService msg = new MessagesService();
-                        Set<ResultSet> notifications = msg.viewUserNotifications(id);
-                        CommonUtil.displayTray(notifications);
+//                        MessagesService msg = new MessagesService();
+//                        Set<ResultSet> notifications = msg.viewUserNotifications(id);
+//                        CommonUtil.displayTray(notifications);
                     }
 
                     case 55 -> {

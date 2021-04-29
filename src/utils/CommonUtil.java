@@ -13,7 +13,6 @@ import java.awt.Toolkit;
 import java.awt.TrayIcon;
 import java.awt.TrayIcon.MessageType;
 import java.util.Set;
-import server.services.MessagesService;
 
 
 /**
@@ -107,9 +106,10 @@ public class CommonUtil {
                 if (g_rec == 0)
                     trayIcon.displayMessage(cont, "from " + sname, MessageType.INFO);
                 else {
-                    MessagesService msg = new MessagesService();
-                    String gr_name = msg.viewGroupName(g_rec);
-                    trayIcon.displayMessage(cont, "In " + gr_name + ": " + sname, MessageType.NONE);
+                    //channele and souvede
+//                    MessagesService msg = new MessagesService();
+//                    String gr_name = msg.viewGroupName(g_rec);
+//                    trayIcon.displayMessage(cont, "In " + gr_name + ": " + sname, MessageType.NONE);
                 }
 //            }
 //

@@ -1,13 +1,11 @@
 package client.views;
 
 import client.interfaces.*;
+import client.models.Group;
+import client.models.User;
 import client.views.components.Component;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import server.models.Group;
-import server.models.GroupMember;
-import server.models.Response;
-import server.models.User;
 import utils.CommonUtil;
 import utils.ConsoleColor;
 

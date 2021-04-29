@@ -1,9 +1,8 @@
 package client.interfaces;
 
+import client.models.Messages;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import server.models.Messages;
-import server.models.User;
 import utils.GroupMessage;
 import utils.GroupNotifications;
 

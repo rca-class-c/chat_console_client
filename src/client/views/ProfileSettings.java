@@ -1,9 +1,9 @@
 package client.views;
 
 import client.interfaces.UserResponseDataDecoder;
+import client.models.User;
 import client.simplifiers.RequestSimplifiers;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import server.models.User;
 import utils.CommonUtil;
 import client.interfaces.ProfileRequestData;
 import client.interfaces.Request;

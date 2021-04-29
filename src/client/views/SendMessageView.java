@@ -1,14 +1,14 @@
 package client.views;
 
 import client.interfaces.*;
+import client.models.File;
+import client.models.Group;
+import client.models.Messages;
+import client.models.User;
+import client.models.enums.FileSizeTypeEnum;
 import client.simplifiers.RequestSimplifiers;
 import client.views.components.Component;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import server.models.File;
-import server.models.Group;
-import server.models.Messages;
-import server.models.User;
-import server.models.enums.FileSizeTypeEnum;
 import utils.*;
 
 import java.io.BufferedReader;
